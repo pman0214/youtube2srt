@@ -6,15 +6,27 @@
 
 This program converts youtube subtitle XML file into srt file.
 
-Required Libraries
-==================
-
-* numpy
-
 Usage
 =====
 
+Specify subtitle XML file retrieved from YouTube as an input.
+This outputs SRT onto your display.
 
+.. code-block:: bash
+
+   $ python main.py abcde.xml
+
+You can specify output SRT filename with ``-o`` option.
+The output file is written with UTF-8 encoding.
+
+.. code-block:: bash
+
+   $ python main.py -o abcde.srt abcde.xml
+
+Limitation
+==========
+
+Not fully tested.
 
 Copyright, License
 ==================
